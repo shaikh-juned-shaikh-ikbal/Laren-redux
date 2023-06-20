@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -23,6 +21,49 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+ /* */
+ .btn-wrapper button{
+  height: 30px;
+  width: 100px;
+  border-radius: 15px;
+  background: pink;
+  font-size: 15px;
+  padding: 5px;
+  box-shadow: 2px 2px 2px 2px rgb(196, 190, 192);
+ }
+
+ .img-wrapper img{
+  margin-top: -10px;
+  width: 50px;
+   /* height: 100px; */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  box-shadow: 4px 4px 4px 4px gray; 
+ }
+ .cart-wrapper{
+  height: 100px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+ }
+ .item{
+  float: left;
+  display: inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+
+.add-to-cart img{
+  width: 80px;
+  position:absolute;
+  right: 1%;
+  top:1%;
+}
+
+ /* */
 
 .App-link {
   color: #61dafb;
