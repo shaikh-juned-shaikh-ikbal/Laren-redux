@@ -5,7 +5,7 @@ import Counter from "./component/Counter";
 import Props from "./component/Props";
 import ColourChange from "./component/ColourChange";
 import PasswordGenratour from "./component/PasswordGenratour";
-import ToDo from "./component/ToDo";
+
 
 function App() {
   const Obj = {
@@ -20,7 +20,7 @@ function App() {
     {/* <Props Data ={Obj} /> */}
     {/* <ColourChange /> */}
     {/* < PasswordGenratour /> */}
-    <ToDo />
+    
     </div>
   );
 }
